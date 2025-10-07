@@ -30,8 +30,8 @@ Features:
      - Environment: sandbox or production
      - API Base URL: e.g., https://sandbox.kopokopo.com
      - Client ID / Client Secret: from your KopoKopo app
-     - STK Till/Paybill: used for STK Push
-     - Manual Till/Paybill (optional): shown in manual payment instructions (leave empty to reuse STK Till)
+     - STK Till: used for STK Push
+     - Manual Till: shown in manual payment instructions (leave empty to reuse STK Till)
      - Webhook Secret (optional): if you implement signature verification
 
 3) Configure your KopoKopo Webhook (or the callback URL in your app settings) to POST to:
