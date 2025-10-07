@@ -1,6 +1,6 @@
 <?php
 /**
- * KopoKopo Payment Gateway for WHMCS (M-Pesa STK Push)
+ * KopoKopo Payment Gateway for WHMCS 
  */
 
 if (!defined('WHMCS')) {
@@ -10,7 +10,7 @@ if (!defined('WHMCS')) {
 function kopokopo_MetaData()
 {
     return [
-        'DisplayName' => 'KopoKopo (M-Pesa STK Push)',
+        'DisplayName' => 'KopoKopo Till stk push',
         'APIVersion'  => '1.1',
     ];
 }
@@ -52,7 +52,7 @@ function kopokopo_Config()
             'Size'         => '60',
         ],
         'tillNumber' => [
-            'FriendlyName' => 'Default Till/Paybill (optional)',
+            'FriendlyName' => 'Default Till',
             'Type'         => 'text',
             'Size'         => '30',
         ],
