@@ -1,3 +1,4 @@
+## the project above is not affiliated with kopokopo it's a personal solution
 # KopoKopo (M-Pesa) Payment Gateway for WHMCS
 
 A production-ready M-Pesa payment gateway for WHMCS using KopoKopo APIs.
