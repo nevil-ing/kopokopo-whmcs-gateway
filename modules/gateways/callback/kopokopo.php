@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['webhook'])) {
     $payload = file_get_contents('php://input');
     $data = json_decode($payload, true);
 
-    // Optional signature verification can go here (using $gatewayParams['webhookSecret'])
+    //removed signature verification
 
     if (!$data) {
         kk_log('Webhook invalid JSON', $payload, 'Failure');
